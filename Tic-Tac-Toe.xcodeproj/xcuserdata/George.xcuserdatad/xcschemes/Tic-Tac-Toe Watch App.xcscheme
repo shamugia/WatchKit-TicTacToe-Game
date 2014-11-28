@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E9C01541A25F143004396CE"
-               BuildableName = "Tic-Tac-Toe.app"
-               BlueprintName = "Tic-Tac-Toe"
+               BlueprintIdentifier = "5E9C018A1A25F15F004396CE"
+               BuildableName = "Tic-Tac-Toe Watch App.app"
+               BlueprintName = "Tic-Tac-Toe Watch App"
                ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E9C01691A25F143004396CE"
-               BuildableName = "Tic-Tac-ToeTests.xctest"
-               BlueprintName = "Tic-Tac-ToeTests"
+               BlueprintIdentifier = "5E9C017D1A25F15F004396CE"
+               BuildableName = "Tic-Tac-Toe WatchKit Extension.appex"
+               BlueprintName = "Tic-Tac-Toe WatchKit Extension"
+               ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5E9C01541A25F143004396CE"
+               BuildableName = "Tic-Tac-Toe.app"
+               BlueprintName = "Tic-Tac-Toe"
                ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E9C01691A25F143004396CE"
-               BuildableName = "Tic-Tac-ToeTests.xctest"
-               BlueprintName = "Tic-Tac-ToeTests"
-               ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E9C01541A25F143004396CE"
-            BuildableName = "Tic-Tac-Toe.app"
-            BlueprintName = "Tic-Tac-Toe"
+            BlueprintIdentifier = "5E9C018A1A25F15F004396CE"
+            BuildableName = "Tic-Tac-Toe Watch App.app"
+            BlueprintName = "Tic-Tac-Toe Watch App"
             ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Tic-Tac-Toe">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E9C01541A25F143004396CE"
-            BuildableName = "Tic-Tac-Toe.app"
-            BlueprintName = "Tic-Tac-Toe"
+            BlueprintIdentifier = "5E9C018A1A25F15F004396CE"
+            BuildableName = "Tic-Tac-Toe Watch App.app"
+            BlueprintName = "Tic-Tac-Toe Watch App"
             ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5E9C018A1A25F15F004396CE"
+            BuildableName = "Tic-Tac-Toe Watch App.app"
+            BlueprintName = "Tic-Tac-Toe Watch App"
+            ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Tic-Tac-Toe">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E9C01541A25F143004396CE"
-            BuildableName = "Tic-Tac-Toe.app"
-            BlueprintName = "Tic-Tac-Toe"
+            BlueprintIdentifier = "5E9C018A1A25F15F004396CE"
+            BuildableName = "Tic-Tac-Toe Watch App.app"
+            BlueprintName = "Tic-Tac-Toe Watch App"
             ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5E9C018A1A25F15F004396CE"
+            BuildableName = "Tic-Tac-Toe Watch App.app"
+            BlueprintName = "Tic-Tac-Toe Watch App"
+            ReferencedContainer = "container:Tic-Tac-Toe.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

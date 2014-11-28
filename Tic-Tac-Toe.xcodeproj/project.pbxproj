@@ -13,6 +13,15 @@
 		5E9C01621A25F143004396CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C01611A25F143004396CE /* Images.xcassets */; };
 		5E9C01651A25F143004396CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C01631A25F143004396CE /* LaunchScreen.xib */; };
 		5E9C01711A25F143004396CE /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C01701A25F143004396CE /* Tic_Tac_ToeTests.swift */; };
+		5E9C01811A25F15F004396CE /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C01801A25F15F004396CE /* WatchKit.framework */; };
+		5E9C01861A25F15F004396CE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C01851A25F15F004396CE /* InterfaceController.swift */; };
+		5E9C01881A25F15F004396CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C01871A25F15F004396CE /* Images.xcassets */; };
+		5E9C018C1A25F15F004396CE /* Tic-Tac-Toe Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C018B1A25F15F004396CE /* Tic-Tac-Toe Watch App.app */; };
+		5E9C01931A25F15F004396CE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C01921A25F15F004396CE /* Interface.storyboard */; };
+		5E9C01951A25F15F004396CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C01941A25F15F004396CE /* Images.xcassets */; };
+		5E9C01981A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E9C017E1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5E9C01A11A261BC5004396CE /* ResultInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C01A01A261BC5004396CE /* ResultInterfaceController.swift */; };
+		5EC83D6E1A26915600711761 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC83D6D1A26915600711761 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = 5E9C01541A25F143004396CE;
 			remoteInfo = "Tic-Tac-Toe";
 		};
+		5E9C018D1A25F15F004396CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9C014D1A25F143004396CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9C018A1A25F15F004396CE;
+			remoteInfo = "Tic-Tac-Toe Watch App";
+		};
+		5E9C01961A25F15F004396CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9C014D1A25F143004396CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9C017D1A25F15F004396CE;
+			remoteInfo = "Tic-Tac-Toe WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E9C019F1A25F15F004396CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5E9C01981A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5E9C01551A25F143004396CE /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,17 @@
 		5E9C016A1A25F143004396CE /* Tic-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9C016F1A25F143004396CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E9C01701A25F143004396CE /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		5E9C017E1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tic-Tac-Toe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C01801A25F15F004396CE /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		5E9C01841A25F15F004396CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9C01851A25F15F004396CE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5E9C01871A25F15F004396CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E9C018B1A25F15F004396CE /* Tic-Tac-Toe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C01911A25F15F004396CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9C01921A25F15F004396CE /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		5E9C01941A25F15F004396CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E9C01A01A261BC5004396CE /* ResultInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultInterfaceController.swift; sourceTree = "<group>"; };
+		5EC83D6D1A26915600711761 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E9C017B1A25F15F004396CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C01811A25F15F004396CE /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +117,9 @@
 			children = (
 				5E9C01571A25F143004396CE /* Tic-Tac-Toe */,
 				5E9C016D1A25F143004396CE /* Tic-Tac-ToeTests */,
+				5E9C01821A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension */,
+				5E9C018F1A25F15F004396CE /* Tic-Tac-Toe Watch App */,
+				5E9C017F1A25F15F004396CE /* Frameworks */,
 				5E9C01561A25F143004396CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +129,8 @@
 			children = (
 				5E9C01551A25F143004396CE /* Tic-Tac-Toe.app */,
 				5E9C016A1A25F143004396CE /* Tic-Tac-ToeTests.xctest */,
+				5E9C017E1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex */,
+				5E9C018B1A25F15F004396CE /* Tic-Tac-Toe Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +173,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5E9C017F1A25F15F004396CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C01801A25F15F004396CE /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E9C01821A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C01851A25F15F004396CE /* InterfaceController.swift */,
+				5E9C01A01A261BC5004396CE /* ResultInterfaceController.swift */,
+				5EC83D6D1A26915600711761 /* Board.swift */,
+				5E9C01871A25F15F004396CE /* Images.xcassets */,
+				5E9C01831A25F15F004396CE /* Supporting Files */,
+			);
+			path = "Tic-Tac-Toe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5E9C01831A25F15F004396CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C01841A25F15F004396CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E9C018F1A25F15F004396CE /* Tic-Tac-Toe Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C01921A25F15F004396CE /* Interface.storyboard */,
+				5E9C01941A25F15F004396CE /* Images.xcassets */,
+				5E9C01901A25F15F004396CE /* Supporting Files */,
+			);
+			path = "Tic-Tac-Toe Watch App";
+			sourceTree = "<group>";
+		};
+		5E9C01901A25F15F004396CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C01911A25F15F004396CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +229,12 @@
 				5E9C01511A25F143004396CE /* Sources */,
 				5E9C01521A25F143004396CE /* Frameworks */,
 				5E9C01531A25F143004396CE /* Resources */,
+				5E9C019F1A25F15F004396CE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5E9C01971A25F15F004396CE /* PBXTargetDependency */,
 			);
 			name = "Tic-Tac-Toe";
 			productName = "Tic-Tac-Toe";
@@ -150,6 +259,39 @@
 			productReference = 5E9C016A1A25F143004396CE /* Tic-Tac-ToeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5E9C017D1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9C019C1A25F15F004396CE /* Build configuration list for PBXNativeTarget "Tic-Tac-Toe WatchKit Extension" */;
+			buildPhases = (
+				5E9C017A1A25F15F004396CE /* Sources */,
+				5E9C017B1A25F15F004396CE /* Frameworks */,
+				5E9C017C1A25F15F004396CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9C018E1A25F15F004396CE /* PBXTargetDependency */,
+			);
+			name = "Tic-Tac-Toe WatchKit Extension";
+			productName = "Tic-Tac-Toe WatchKit Extension";
+			productReference = 5E9C017E1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5E9C018A1A25F15F004396CE /* Tic-Tac-Toe Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9C01991A25F15F004396CE /* Build configuration list for PBXNativeTarget "Tic-Tac-Toe Watch App" */;
+			buildPhases = (
+				5E9C01891A25F15F004396CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tic-Tac-Toe Watch App";
+			productName = "Tic-Tac-Toe Watch App";
+			productReference = 5E9C018B1A25F15F004396CE /* Tic-Tac-Toe Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +307,12 @@
 					5E9C01691A25F143004396CE = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 5E9C01541A25F143004396CE;
+					};
+					5E9C017D1A25F15F004396CE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5E9C018A1A25F15F004396CE = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +331,8 @@
 			targets = (
 				5E9C01541A25F143004396CE /* Tic-Tac-Toe */,
 				5E9C01691A25F143004396CE /* Tic-Tac-ToeTests */,
+				5E9C017D1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension */,
+				5E9C018A1A25F15F004396CE /* Tic-Tac-Toe Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +352,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C017C1A25F15F004396CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C018C1A25F15F004396CE /* Tic-Tac-Toe Watch App.app in Resources */,
+				5E9C01881A25F15F004396CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C01891A25F15F004396CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C01931A25F15F004396CE /* Interface.storyboard in Resources */,
+				5E9C01951A25F15F004396CE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +393,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E9C017A1A25F15F004396CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C01A11A261BC5004396CE /* ResultInterfaceController.swift in Sources */,
+				5E9C01861A25F15F004396CE /* InterfaceController.swift in Sources */,
+				5EC83D6E1A26915600711761 /* Board.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +410,16 @@
 			isa = PBXTargetDependency;
 			target = 5E9C01541A25F143004396CE /* Tic-Tac-Toe */;
 			targetProxy = 5E9C016B1A25F143004396CE /* PBXContainerItemProxy */;
+		};
+		5E9C018E1A25F15F004396CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9C018A1A25F15F004396CE /* Tic-Tac-Toe Watch App */;
+			targetProxy = 5E9C018D1A25F15F004396CE /* PBXContainerItemProxy */;
+		};
+		5E9C01971A25F15F004396CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9C017D1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension */;
+			targetProxy = 5E9C01961A25F15F004396CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Tic-Tac-Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Tic-Tac-Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +578,62 @@
 			};
 			name = Release;
 		};
+		5E9C019A1A25F15F004396CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Tic_Tac_Toe_WatchKit_Extension;
+				INFOPLIST_FILE = "Tic-Tac-Toe Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5E9C019B1A25F15F004396CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Tic_Tac_Toe_WatchKit_Extension;
+				INFOPLIST_FILE = "Tic-Tac-Toe Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5E9C019D1A25F15F004396CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tic-Tac-Toe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E9C019E1A25F15F004396CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tic-Tac-Toe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,6 +653,7 @@
 				5E9C01761A25F143004396CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E9C01771A25F143004396CE /* Build configuration list for PBXNativeTarget "Tic-Tac-ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +662,25 @@
 				5E9C01791A25F143004396CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9C01991A25F15F004396CE /* Build configuration list for PBXNativeTarget "Tic-Tac-Toe Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C019A1A25F15F004396CE /* Debug */,
+				5E9C019B1A25F15F004396CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9C019C1A25F15F004396CE /* Build configuration list for PBXNativeTarget "Tic-Tac-Toe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C019D1A25F15F004396CE /* Debug */,
+				5E9C019E1A25F15F004396CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
