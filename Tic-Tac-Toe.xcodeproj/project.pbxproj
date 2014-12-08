@@ -22,6 +22,7 @@
 		5E9C01981A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E9C017E1A25F15F004396CE /* Tic-Tac-Toe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5E9C01A11A261BC5004396CE /* ResultInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C01A01A261BC5004396CE /* ResultInterfaceController.swift */; };
 		5EC83D6E1A26915600711761 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC83D6D1A26915600711761 /* Board.swift */; };
+		5EF78C841A35DD28008DA24B /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF78C831A35DD28008DA24B /* GlanceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		5E9C01941A25F15F004396CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E9C01A01A261BC5004396CE /* ResultInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultInterfaceController.swift; sourceTree = "<group>"; };
 		5EC83D6D1A26915600711761 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		5EF78C831A35DD28008DA24B /* GlanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				5E9C01851A25F15F004396CE /* InterfaceController.swift */,
 				5E9C01A01A261BC5004396CE /* ResultInterfaceController.swift */,
 				5EC83D6D1A26915600711761 /* Board.swift */,
+				5EF78C831A35DD28008DA24B /* GlanceController.swift */,
 				5E9C01871A25F15F004396CE /* Images.xcassets */,
 				5E9C01831A25F15F004396CE /* Supporting Files */,
 			);
@@ -400,6 +403,7 @@
 				5E9C01A11A261BC5004396CE /* ResultInterfaceController.swift in Sources */,
 				5E9C01861A25F15F004396CE /* InterfaceController.swift in Sources */,
 				5EC83D6E1A26915600711761 /* Board.swift in Sources */,
+				5EF78C841A35DD28008DA24B /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@
                     <items>
                         <group width="1" height="1" alignment="left" layout="vertical" hasDetent="YES" id="A5D-Xv-2Ge">
                             <items>
-                                <imageView alignment="center" verticalAlignment="center" animationDuration="3" id="rtS-sd-gxV"/>
+                                <imageView alignment="center" verticalAlignment="center" initiallyAnimated="NO" animationDuration="3" id="rtS-sd-gxV"/>
                             </items>
                         </group>
                         <group width="1" height="1" alignment="left" layout="vertical" id="6qF-ma-z31">
@@ -134,6 +134,33 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="440" y="353"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="ryz-iz-qCN">
+            <objects>
+                <glanceController id="Cap-ae-tgL" customClass="GlanceController" customModule="Tic_Tac_Toe_WatchKit_Extension">
+                    <items>
+                        <group alignment="left" id="pYK-LP-dwb">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="Tic Tac Toe" textAlignment="center" id="OIA-ug-mHM">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" layout="vertical" id="tFd-Ws-s2s">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="Win: 100" id="NQ9-bQ-lxS"/>
+                                <label alignment="center" verticalAlignment="center" text="Loss: 100" id="dc1-KB-lYp"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="lossLabel" destination="dc1-KB-lYp" id="hPA-Wg-V6U"/>
+                        <outlet property="winLabel" destination="NQ9-bQ-lxS" id="ahY-2R-bSD"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="420" y="660"/>
         </scene>
         <!--Done-->
         <scene sceneID="145-gP-gLo">
