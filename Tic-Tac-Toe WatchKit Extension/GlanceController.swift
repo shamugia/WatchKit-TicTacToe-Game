@@ -16,8 +16,8 @@ class GlanceController: WKInterfaceController {
     @IBOutlet weak var lossLabel:WKInterfaceLabel!
     
     
-    override init(context: AnyObject?) {
-        super.init(context: context)
+    override init() {
+        super.init()
     }
     
     override func willActivate() {
