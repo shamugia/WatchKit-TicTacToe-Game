@@ -30,6 +30,7 @@ class ResultInterfaceController: WKInterfaceController {
         }
     }
     override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext (context)
         if let displayData:[String:String] = context as? Dictionary
         {
             resultLabel.setText(displayData["winner"])
