@@ -17,8 +17,8 @@ class ResultInterfaceController: WKInterfaceController {
     @IBOutlet weak var lossStatsLabel:WKInterfaceLabel!
     
     
-    override init(context: AnyObject?) {
-        super.init(context: context)
+    override init() {
+        super.init()
         
         if WKInterfaceDevice.currentDevice().screenBounds.size.width > 136  //42mm
         {
@@ -28,7 +28,9 @@ class ResultInterfaceController: WKInterfaceController {
         {
             background.setBackgroundImageNamed("38_boardbg")
         }
-        
+    }
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext (context)
         if let displayData:[String:String] = context as? Dictionary
         {
             resultLabel.setText(displayData["winner"])
