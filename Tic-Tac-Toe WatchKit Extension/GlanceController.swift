@@ -15,7 +15,6 @@ class GlanceController: WKInterfaceController {
     @IBOutlet weak var winLabel:WKInterfaceLabel!
     @IBOutlet weak var lossLabel:WKInterfaceLabel!
     
-    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
     }
