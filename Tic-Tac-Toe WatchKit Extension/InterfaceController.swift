@@ -26,7 +26,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var btn8:WKInterfaceButton!
     @IBOutlet weak var btn9:WKInterfaceButton!
     
-    let arrayOfBtns:[WKInterfaceButton] = []
+    var arrayOfBtns:[WKInterfaceButton] = []
     
     let xoBoard:Board = Board()
     
@@ -37,8 +37,8 @@ class InterfaceController: WKInterfaceController {
     var isFirstLaunch = true
     
     
-    override init(context: AnyObject?) {
-        super.init(context: context)
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
         
         arrayOfBtns = [btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9]
         
@@ -323,7 +323,7 @@ class InterfaceController: WKInterfaceController {
     
     func displayResultScreen(timer: NSTimer)
     {
-        var winner = timer.userInfo as String
+        var winner = timer.userInfo as! String
         var userdef = NSUserDefaults.standardUserDefaults()
         var winValue:Int = 0
         var loseValue:Int = 0

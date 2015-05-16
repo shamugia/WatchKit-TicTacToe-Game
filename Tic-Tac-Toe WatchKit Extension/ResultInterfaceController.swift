@@ -17,8 +17,8 @@ class ResultInterfaceController: WKInterfaceController {
     @IBOutlet weak var lossStatsLabel:WKInterfaceLabel!
     
     
-    override init(context: AnyObject?) {
-        super.init(context: context)
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
         
         if WKInterfaceDevice.currentDevice().screenBounds.size.width > 136  //42mm
         {
